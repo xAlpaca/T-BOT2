@@ -50,3 +50,4 @@ async def on_member_join(ctx):
     await ctx.add_roles(role)
 
 token = os.environ.get('BOT_TOKEN')
+Bot.run(str(token))
